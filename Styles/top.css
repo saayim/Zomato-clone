@@ -1,0 +1,99 @@
+.top {
+    position: relative;
+    height: calc(100vh - 300px);
+    min-height: 420px;
+    max-height: 570px;
+    margin-bottom: 40px;
+}
+.top .bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: calc(100vh - 300px);
+    min-height: 420px;
+    max-height: 570px;
+    object-fit: cover;
+    width: 100%;
+}
+.top .center-content {
+    position: absolute;
+    bottom: calc(50% - 110px);
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+main .main-logo {
+    height: 60px;
+    width: 300px;
+    position: relative;
+}
+main .top h1 {
+    color: white;
+    font-weight: 200;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 30px;
+}
+main .top .city {
+    font-weight: 400;
+}
+main .top .search-container {
+    flex-direction: row;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 30px;
+    border: 1px solid rgb(232, 232, 232);
+    height: 54px;
+    align-items: center;
+}
+main .top .search-container input {
+    border: none;
+}
+main .top .search-container >div {
+    display: flex;
+    align-items: center;
+}
+main .top .search-container .location {
+    width: 240px;
+    padding: 0 10px;
+    justify-content: space-around;
+}
+main .top .search-container .map-in svg {
+    color: rgb(255, 126, 139);
+}
+main .top .search-container .chevron svg{
+    color: rgb(0, 0, 0);
+}
+main .top .search-container .line {
+    width: 0px;
+    height: 20px;
+    border: 1px solid rgb(207, 207, 207);
+}
+main .top .search-container .search {
+    width: 530px;
+    display: flex;
+}
+main .top .search-container .search-input {
+    flex: 1;
+}
+main .top .search-container .search .search-icon {
+    width: 60px;
+    margin: -1px 60px -1px -1px;
+    display: flex;
+    justify-content: center;
+}
+main .search-container .search .search-icon svg {
+    color: rgb(130, 130, 130);
+}
+main .search-container .search-input {
+    font-size: 14px;
+    width: 100%;
+}
+main .search-container .location-input {
+    font-size: 14px;
+}
+
+

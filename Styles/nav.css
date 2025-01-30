@@ -1,0 +1,44 @@
+header {
+    width: 100%;
+    color: white;
+    position: absolute;
+}
+nav {
+    width: 80%;
+    font-weight: 200;
+    background: transparent;
+    align-items: center ;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    user-select: none;
+    padding: 17px 0px;
+    color: #ffffff;
+}
+nav .nav-element a {
+color: #ffffff;
+font-size: 14px;
+font-weight: 400;
+
+
+}
+nav .nav-element {
+    color: #ffffff;
+    padding: 10px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 0px 0px 2px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+nav .nav-right {
+    display: flex;
+}
+nav .nav-right .nav-element a {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 8px;
+}

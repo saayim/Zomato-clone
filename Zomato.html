@@ -1,33 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="icon" type="image/x-icon" href="Assets/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="Styles/index.css">
+    <link rel="stylesheet" type="text/css" href="Styles/nav.css">
+    <link rel="stylesheet" type="text/css" href="Styles/top.css">
+    <link rel="stylesheet" type="text/css" href="Styles/main.css">
+    <link rel="stylesheet" type="text/css" href="Styles/localities.css">
     <meta charset="UTF-8">
-    <link rel="icon" href="Zomato_logo.png">
-    <link rel="stylesheet" href="Zomato.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zomato</title>
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
+
 <body>
     <header>
         <nav>
-        <div class="user-icon">
-        </div>
-        <div class="right">
-        </div>
+            <div class="nav-left">
+                <div class="nav-element"><i data-feather="smartphone"></i><a href="#">Get the app</a></div>
+            </div>
+            <div class="nav-right">
+                <div class="nav-element"><a href="#">Investor Relations</a></div>
+                <div class="nav-element"><a href="#">Add restraunt</a></div>
+                <div class="nav-element"><a href="#">Log in</a></div>
+                <div class="nav-element"><a href="#">Sign up</a></div>
+            </div>
         </nav>
     </header>
+    <main>
+        <section class="top">
+            <img src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png" alt="bg-image"
+                class="bg-image">
+            <div class="center-content column">
+                <img src="Assets/logo.png" alt="zomato logo" class="main-logo">
+                <h1>Discover the best food & drinks in <span class="city">Kozhikode</span></h1>
+                <div class="search-container row">
+                    <div class="location">
+                        <div class="map-in">
+                            <i data-feather="map-pin"></i>
+                        </div>
+                        <input type="text" placeholder="Kozhikode" class="location-input">
+                        <div class="chevron">
+                            <i data-feather="chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="search">
+                        <div class="search-icon">
+                            <i data-feather="search"></i>
+                        </div>
+                        <input type="text" placeholder="Search for restaurant, cuisine or a dish" class="search-input">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main-body">
+            <div class="options">
+                <div class="option">
+                    <div class="image">
+                        <img src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*"
+                            alt="online-ordering">
+                        <div class="info">
+                            <div class="info-title">Order Online</div>
+                            <div class="info-discription">Stay home and order on your doorstep</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    
-           
-        <div class="head">
-            <img class="nav-img" src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png">
-            <h3>Discover the best food & drinks in Kozhikode</h3>
-        </div>
-        <div class="Seach">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" wi ><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
-            <p>Kozhikode</p>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
-            <input type="text" placeholder="search for restaurant, cuisine or a dish">
-        </div>
+            <div class="localities">
+                <div class="title">
+                    Popular localities in and around <span class="city">Kozhikode</span>
+                </div>
+                <div class="localities-list">
+                    <div class="locality row">
+                        <div class="left"></div>
+                        <div class="locality-title">Palayam</div>
+                        <div class="places">171 places</div>
+                    </div>
+                    <div class="right">
+                        <i data-feather="chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>
+        feather.replace();
+    </script>
 </body>
+
 </html>
