@@ -31,7 +31,6 @@ nav .nav-element {
     display: flex;
     align-items: center;
     gap: 5px;
-    cursor: pointer;
 }
 nav .nav-right {
     display: flex;
