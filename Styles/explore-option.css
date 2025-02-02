@@ -1,0 +1,29 @@
+.explore-options {
+    width: 110rem;
+    margin: auto;
+    padding: 50px 0;
+}
+.explore-options .heading {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0px 0px 20px;
+    color: rgb(54, 54, 54);
+    line-height: 40px;
+}
+.accordion {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    border-radius: 0.8rem;
+    padding: 2rem 2.4rem;
+    border: 1px solid rgb(232, 232, 232);
+    cursor: pointer;
+}
+.accordion-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 200;
+}
+
